@@ -1,0 +1,4 @@
+Adezandee\ShopifyBundle\Wrapper\MetafieldWrapper:
+    properties:
+        metafield:
+            type: Adezandee\ShopifyBundle\Entity\Metafield

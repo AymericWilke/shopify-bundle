@@ -3,6 +3,10 @@ services:
         class: Adezandee\ShopifyBundle\Export\ProductExporter
         arguments: [%shopify.options%]
 
+    shopify.product_metafield_exporter:
+        class: Adezandee\ShopifyBundle\Export\ProductMetafieldExporter
+        arguments: [%shopify.options%]
+
     shopify.custom_collection_exporter:
         class: Adezandee\ShopifyBundle\Export\CustomCollectionExporter
         arguments: [%shopify.options%]
