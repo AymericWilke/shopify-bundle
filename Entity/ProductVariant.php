@@ -150,6 +150,14 @@ class ProductVariant
     }
 
     /**
+     * @param string $option3
+     */
+    public function setOption3($option3)
+    {
+        $this->option3 = $option3;
+    }
+
+    /**
      * @param string $price
      */
     public function setPrice($price)
@@ -158,10 +166,138 @@ class ProductVariant
     }
 
     /**
-     * @param string $option3
+     * @param string $grams
      */
-    public function setOption3($option3)
+    public function setGrams($grams)
     {
-        $this->option3 = $option3;
+        $this->grams = $grams;
     }
+
+    public function getBarcode(){
+		return $this->barcode;
+	}
+
+	public function setBarcode($barcode){
+		$this->barcode = $barcode;
+	}
+
+	public function getCompareAtPrice(){
+		return $this->compareAtPrice;
+	}
+
+	public function setCompareAtPrice($compareAtPrice){
+		$this->compareAtPrice = $compareAtPrice;
+	}
+
+	public function getCreatedAt(){
+		return $this->createdAt;
+	}
+
+	public function setCreatedAt($createdAt){
+		$this->createdAt = $createdAt;
+	}
+
+	public function getFulfillmentService(){
+		return $this->fulfillmentService;
+	}
+
+	public function setFulfillmentService($fulfillmentService){
+		$this->fulfillmentService = $fulfillmentService;
+	}
+
+	public function getGrams(){
+		return $this->grams;
+	}
+
+	public function getInventoryManagement(){
+		return $this->inventoryManagement;
+	}
+
+	public function setInventoryManagement($inventoryManagement){
+		$this->inventoryManagement = $inventoryManagement;
+	}
+
+	public function getInventoryPolicy(){
+		return $this->inventoryPolicy;
+	}
+
+	public function setInventoryPolicy($inventoryPolicy){
+		$this->inventoryPolicy = $inventoryPolicy;
+	}
+
+	public function getOption1(){
+		return $this->option1;
+	}
+
+	public function getOption2(){
+		return $this->option2;
+	}
+
+	public function getOption3(){
+		return $this->option3;
+	}
+
+	public function getPosition(){
+		return $this->position;
+	}
+
+	public function setPosition($position){
+		$this->position = $position;
+	}
+
+	public function getPrice(){
+		return $this->price;
+	}
+
+	public function getProductId(){
+		return $this->productId;
+	}
+
+	public function getRequiresShipping(){
+		return $this->requiresShipping;
+	}
+
+	public function setRequiresShipping($requiresShipping){
+		$this->requiresShipping = $requiresShipping;
+	}
+
+	public function getSku(){
+		return $this->sku;
+	}
+
+	public function setSku($sku){
+		$this->sku = $sku;
+	}
+
+	public function getTaxable(){
+		return $this->taxable;
+	}
+
+	public function setTaxable($taxable){
+		$this->taxable = $taxable;
+	}
+
+	public function getTitle(){
+		return $this->title;
+	}
+
+	public function setTitle($title){
+		$this->title = $title;
+	}
+
+	public function getUpdatedAt(){
+		return $this->updatedAt;
+	}
+
+	public function setUpdatedAt($updatedAt){
+		$this->updatedAt = $updatedAt;
+	}
+
+	public function getInventoryQuantity(){
+		return $this->inventoryQuantity;
+	}
+
+	public function setInventoryQuantity($inventoryQuantity){
+		$this->inventoryQuantity = $inventoryQuantity;
+	}
 }
