@@ -123,6 +123,7 @@ class ProductVariant
     public function setId($id)
     {
         $this->id = $id;
+        return $this;
     }
 
     /**
@@ -131,6 +132,7 @@ class ProductVariant
     public function setProductId($productId)
     {
         $this->productId = $productId;
+        return $this;
     }
 
     /**
@@ -139,6 +141,7 @@ class ProductVariant
     public function setOption1($option1)
     {
         $this->option1 = $option1;
+        return $this;
     }
 
     /**
@@ -147,6 +150,7 @@ class ProductVariant
     public function setOption2($option2)
     {
         $this->option2 = $option2;
+        return $this;
     }
 
     /**
@@ -155,6 +159,7 @@ class ProductVariant
     public function setOption3($option3)
     {
         $this->option3 = $option3;
+        return $this;
     }
 
     /**
@@ -163,6 +168,7 @@ class ProductVariant
     public function setPrice($price)
     {
         $this->price = $price;
+        return $this;
     }
 
     /**
@@ -171,6 +177,7 @@ class ProductVariant
     public function setGrams($grams)
     {
         $this->grams = $grams;
+        return $this;
     }
 
     public function getBarcode(){
@@ -179,6 +186,7 @@ class ProductVariant
 
 	public function setBarcode($barcode){
 		$this->barcode = $barcode;
+        return $this;
 	}
 
 	public function getCompareAtPrice(){
@@ -187,6 +195,7 @@ class ProductVariant
 
 	public function setCompareAtPrice($compareAtPrice){
 		$this->compareAtPrice = $compareAtPrice;
+        return $this;
 	}
 
 	public function getCreatedAt(){
@@ -195,6 +204,7 @@ class ProductVariant
 
 	public function setCreatedAt($createdAt){
 		$this->createdAt = $createdAt;
+        return $this;
 	}
 
 	public function getFulfillmentService(){
@@ -203,6 +213,7 @@ class ProductVariant
 
 	public function setFulfillmentService($fulfillmentService){
 		$this->fulfillmentService = $fulfillmentService;
+        return $this;
 	}
 
 	public function getGrams(){
@@ -215,6 +226,7 @@ class ProductVariant
 
 	public function setInventoryManagement($inventoryManagement){
 		$this->inventoryManagement = $inventoryManagement;
+        return $this;
 	}
 
 	public function getInventoryPolicy(){
@@ -223,6 +235,7 @@ class ProductVariant
 
 	public function setInventoryPolicy($inventoryPolicy){
 		$this->inventoryPolicy = $inventoryPolicy;
+        return $this;
 	}
 
 	public function getOption1(){
@@ -243,6 +256,7 @@ class ProductVariant
 
 	public function setPosition($position){
 		$this->position = $position;
+        return $this;
 	}
 
 	public function getPrice(){
@@ -259,6 +273,7 @@ class ProductVariant
 
 	public function setRequiresShipping($requiresShipping){
 		$this->requiresShipping = $requiresShipping;
+        return $this;
 	}
 
 	public function getSku(){
@@ -267,6 +282,7 @@ class ProductVariant
 
 	public function setSku($sku){
 		$this->sku = $sku;
+        return $this;
 	}
 
 	public function getTaxable(){
@@ -275,6 +291,7 @@ class ProductVariant
 
 	public function setTaxable($taxable){
 		$this->taxable = $taxable;
+        return $this;
 	}
 
 	public function getTitle(){
@@ -283,6 +300,7 @@ class ProductVariant
 
 	public function setTitle($title){
 		$this->title = $title;
+        return $this;
 	}
 
 	public function getUpdatedAt(){
@@ -291,6 +309,7 @@ class ProductVariant
 
 	public function setUpdatedAt($updatedAt){
 		$this->updatedAt = $updatedAt;
+        return $this;
 	}
 
 	public function getInventoryQuantity(){
@@ -299,5 +318,6 @@ class ProductVariant
 
 	public function setInventoryQuantity($inventoryQuantity){
 		$this->inventoryQuantity = $inventoryQuantity;
+        return $this;
 	}
 }

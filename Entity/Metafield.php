@@ -65,6 +65,7 @@ class Metafield
 
 	public function setCreatedAt($createdAt){
 		$this->createdAt = $createdAt;
+        return $this;
 	}
 
 	public function getDescription(){
@@ -73,6 +74,7 @@ class Metafield
 
 	public function setDescription($description){
 		$this->description = $description;
+        return $this;
 	}
 
 	public function getId(){
@@ -81,6 +83,7 @@ class Metafield
 
 	public function setId($id){
 		$this->id = $id;
+        return $this;
 	}
 
 	public function getKey(){
@@ -89,6 +92,7 @@ class Metafield
 
 	public function setKey($key){
 		$this->key = $key;
+        return $this;
 	}
 
 	public function getNamespace(){
@@ -97,6 +101,7 @@ class Metafield
 
 	public function setNamespace($namespace){
 		$this->namespace = $namespace;
+        return $this;
 	}
 
 	public function getOwnerId(){
@@ -105,6 +110,7 @@ class Metafield
 
 	public function setOwnerId($ownerId){
 		$this->ownerId = $ownerId;
+        return $this;
 	}
 
 	public function getOwnerResource(){
@@ -113,6 +119,7 @@ class Metafield
 
 	public function setOwnerResource($ownerResource){
 		$this->ownerResource = $ownerResource;
+        return $this;
 	}
 
 	public function getValue(){
@@ -121,6 +128,7 @@ class Metafield
 
 	public function setValue($value){
 		$this->value = $value;
+        return $this;
 	}
 
 	public function getValueType(){
@@ -129,6 +137,7 @@ class Metafield
 
 	public function setValueType($valueType){
 		$this->valueType = $valueType;
+        return $this;
 	}
 
 	public function getUpdatedAt(){
@@ -137,5 +146,6 @@ class Metafield
 
 	public function setUpdatedAt($updatedAt){
 		$this->updatedAt = $updatedAt;
+        return $this;
 	}
 }

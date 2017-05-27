@@ -46,4 +46,5 @@ class ProductImage
     {
         $this->src = $src;
     }
+        return $this;
 }
