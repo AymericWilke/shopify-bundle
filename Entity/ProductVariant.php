@@ -37,6 +37,16 @@ class ProductVariant
     /**
      * @var integer
      */
+    protected $weight;
+
+    /**
+     * @var integer
+     */
+    protected $weightUnit;
+
+    /**
+     * @var integer
+     */
     protected $id;
 
     /**
@@ -180,6 +190,24 @@ class ProductVariant
         return $this;
     }
 
+    /**
+     * @param string $weight
+     */
+    public function setWeight($weight)
+    {
+        $this->weight = $weight;
+        return $this;
+    }
+
+    /**
+     * @param string $weightUnit
+     */
+    public function setWeightUnit($weightUnit)
+    {
+        $this->weightUnit = $weightUnit;
+        return $this;
+    }
+
     public function getBarcode(){
 		return $this->barcode;
 	}
@@ -218,6 +246,14 @@ class ProductVariant
 
 	public function getGrams(){
 		return $this->grams;
+	}
+
+	public function getWeight(){
+		return $this->weight;
+	}
+
+	public function getWeightUnit(){
+		return $this->weightUnit;
 	}
 
 	public function getInventoryManagement(){

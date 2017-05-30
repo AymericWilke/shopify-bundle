@@ -10,6 +10,10 @@ Adezandee\ShopifyBundle\Entity\ProductVariant:
             type: string
         grams:
             type: integer
+        weight:
+            type: float
+        weightUnit:
+            type: string
         id:
             type: integer
         inventoryManagement:
